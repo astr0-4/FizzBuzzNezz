@@ -11,15 +11,15 @@ void fizzBuzzNezz(int n, int x, int y) {
     int i;
     for(i=1; i <=n; i++){
         if(i%x == 0 && i%y == 0) {
-            printf("BUZZFIZZ");
+            printf("BUZZFIZZ\n");
         }
         
-        else if(i%x == 0) printf("Fizz");
+        else if(i%x == 0) printf("Fizz\n");
         
-        else if(i%y == 0) printf("Buzz");
+        else if(i%y == 0) printf("Buzz\n");
         
         else{
-            printf("%d", i);
+            printf("%d\n", i);
         }
     }
 }
